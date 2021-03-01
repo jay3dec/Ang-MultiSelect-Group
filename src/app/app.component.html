@@ -1,0 +1,11 @@
+<div class="drop-container">
+  <ng-multiselect-dropdown
+  [placeholder]="'Fruits/Vegetables'"
+  [settings]="dropdownSettings"
+  [data]="dropdownList"
+  (onSelect)="onItemSelect($event)"
+  (onDeSelect)="onItemDeSelect()"
+  [(ngModel)]="selectedItems"
+  >
+  </ng-multiselect-dropdown>
+</div>
